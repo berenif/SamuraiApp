@@ -35,7 +35,7 @@ namespace ConsoleApp
         {
             var samurais = context.Samurais.ToList();
 
-            System.Console.WriteLine($"There is currently {samurais.Count}");
+            System.Console.WriteLine($"There is currently {samurais.Count} samurai.");
 
             foreach (var item in samurais)
             {
